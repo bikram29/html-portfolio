@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+.photo{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid aquamarine;
+}
+
+.name{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+.Details {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.table{
+    font-size: 2rem;
+    text-align: center;
+    color: aquamarine;
+}
+a{
+    color: aquamarine;
+}
+
+@media (max-width:2400px){
+    .photo{
+        display: block;
+    }
+    img{
+        display: inline;
+    }
+    .Details{
+        display:block
+    }
+    .table{
+        display: block;
+    }
+}
+    

@@ -1,0 +1,40 @@
+
+
+@media (max-width: 2400px){
+
+.first{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: block;
+}
+.second {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: block;
+}
+.third {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    display: block;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid white;
+    display: inline;
+}
+p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+}
+
+body{
+    background-color: black;
+    width: 100%;
+}
+
